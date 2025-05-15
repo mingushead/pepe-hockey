@@ -1,0 +1,36 @@
+#game-scene {
+  background-image: url('/images/game-scene.webp');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  animation-name: walkcycle;
+  animation-duration: 12000ms;
+  // animation-direction: alternate;
+  animation-timing-function: steps(45);
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  position: relative;
+  top: -20px;
+}
+// #swim {
+//   background-image: url('/images/game-scene.webp');
+//   background-repeat: no-repeat;
+//   background-size: 900%;
+//   animation-name: walkcycle;
+//   animation-duration: 5ms;
+//   animation-direction: alternate;
+//   animation-timing-function: steps(8);
+//   animation-play-state: paused;
+//   animation-delay: calc(0s - calc(calc(var(--scroll) + 5) * 10ms));
+//   animation-iteration-count: infinite;
+//   @media (max-width: 500px) {
+//     animation-delay: calc(0s - calc(calc(var(--scroll) + 5) * 20ms));
+//   }
+// }
+@keyframes walkcycle {
+  0% { background-position: 0 0%;     opacity: 0; }
+  2% { background-position: 0 0%;     opacity: 1; }
+  10% { background-position: 0 0%;    opacity: 1; }
+  85% { background-position: 0 100%;  opacity: 1; }
+  95% { background-position: 0 100%;  opacity: 1; }
+  100% { background-position: 0 100%; opacity: 0; }
+}
