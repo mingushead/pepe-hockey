@@ -13,7 +13,7 @@ export default function CountdownTimer() {
         <div className="countdown">34</div>
       </div>
       <div className="flex second-countdown progress-bar">
-        {new Array(55).fill(true).map(() => <div className="second-active progress-active" />)}
+        {new Array(55).fill(true).map((_, i) => <div className="second-active progress-active" key={`second-${i}`} />)}
       </div>
       <Image src="images/bolt.svg" className="lightning-bolt progress-icon" width={30} height={30} />
       <p className="uppercase score-panel -translate-y-[7px]">{"Until next price increase".replace(/[\s]/g, "     ")}</p>
