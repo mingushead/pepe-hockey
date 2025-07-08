@@ -33,8 +33,12 @@ export default function Header() {
             <Link href="#tokenomics">{t("globals.tokenomics")}</Link>
             <Link href="#roadmap">{t("globals.roadmap")}</Link> */}
             <Link href="#about">The Game</Link>
-            <Link href="#tokenomics">The Token</Link>
-            <Link href="#roadmap">The Draw</Link>
+            <Link href="#tokenomics">About</Link>
+            <Link href="#roadmap">Tokenomics</Link>
+            <Link href="#about">Betting & Esports</Link>
+            <Link href="#about">Community & Governance</Link>
+            <Link href="#about">Roadmap</Link>
+            <Link href="#about">Contact</Link>
             {/* <Link href="https://docs.aquadoge.com/aquadoge-whitepaper" target="_blank" className={cx("relative text-black bg-primary p-1 px-3 rounded hover:bg-white hover:!text-blue hover:!border-blue")}>{t("globals.whitePaper")}</Link> */}
           </div>
           <div className="grow">

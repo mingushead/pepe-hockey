@@ -34,3 +34,35 @@
   95% { background-position: 0 100%;  opacity: 1; }
   100% { background-position: 0 100%; opacity: 0; }
 }
+
+.ice-jungle {
+  background-size: cover;
+  height: 100vh;
+  background-image: url('/images/ice-jungle.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  animation-name: junglecycle;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-duration: 60s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  position: relative;
+  filter: opacity(0.45);
+}
+
+@keyframes junglecycle {
+  0% { background-position: 0% 0%;     opacity: 1; }
+  100% { background-position: 100% 0%; opacity: 1; }
+}
+
+.throbbing {
+  animation-name: throbbing;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes throbbing {
+  0%   { opacity: 0.55; }
+  80%  { opacity: 0.6;  }
+  100% { opacity: 0.55; }
+}

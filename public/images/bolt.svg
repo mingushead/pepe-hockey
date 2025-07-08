@@ -1,0 +1,32 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 width="750px" height="750px" viewBox="50 -20 750 770"
+	 xml:space="preserve">
+  <defs>
+    <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#F7A892" offset="0%" />
+      <!-- <stop stop-color="#F7A892" offset="16%" /> -->
+      <stop stop-color="#FED0A7" offset="17%" />
+      <!-- <stop stop-color="#FED0A7" offset="32%" /> -->
+      <stop stop-color="#F9B77F" offset="33%" />
+      <!-- <stop stop-color="#F9B77F" offset="49%" /> -->
+      <stop stop-color="#F1AD71" offset="50%" />
+      <!-- <stop stop-color="#F1AD71" offset="82%" /> -->
+      <stop stop-color="#E68A51" offset="83%" />
+      <stop stop-color="#F18C6D" offset="100%" />
+    </linearGradient>
+  </defs>
+  <style>
+    path {
+      filter: 
+        drop-shadow(8px 0 0 #A9560F) 
+        drop-shadow(-8px 0 0 #A9560F) 
+        drop-shadow(0 8px 0 #A9560F) 
+        drop-shadow(0 -8px 0 #A9560F) 
+      ;
+    }
+  </style>
+  <path stroke="black" stroke-width="12" fill="url(#gradient)" d="M207.523,560.316c0,0,194.42-421.925,194.444-421.986l10.79-23.997c-41.824,12.02-135.271,34.902-135.57,35.833
+    C286.96,122.816,329.017,0,330.829,0c-39.976,0-79.952,0-119.927,0l-12.167,57.938l-51.176,209.995l135.191-36.806
+    L207.523,560.316z" 
+  />
+</svg>
