@@ -3,7 +3,7 @@ import PresaleBox from "./presale-box";
 
 export default function Hero() {
   return (
-    <main className="relative flex flex-col items-center justify-between min-h-screen bg-[#D0FDFF]"> 
+    <main className="relative flex flex-col items-center justify-start min-h-screen min-w-screen bg-[#D0FDFF]"> 
       <div className="relative w-full" >
         <Image
           className="absolute top-0 left-0 object-cover object-top w-screen h-screen "
@@ -14,10 +14,10 @@ export default function Hero() {
           priority
         />
       </div>
-      <div className="flex flex-col items-center justify-start max-w-7xl min-w-[1200px] z-10 relative">
+      <div className="flex flex-col items-center justify-start max-w-7xl md:min-w-[1200px] z-10 relative overflow-hidden">
         <div className="relative z-10 flex flex-col items-center justify-between w-full h-full -mb-48 font-pepehockey lg:flex">
           <div className="relative flex flex-col items-start justify-start w-full h-full mt-5">
-            <Image src="/images/logo-text.webp" width={680} height={328} className="relative z-50 w-auto h-56 py-2 m-auto hero-logo" alt={"Aquadoge logo"} />
+            <Image src="/images/logo-text.webp" width={680} height={328} className="relative z-50 w-auto h-32 py-2 m-auto md:h-56 mb-90 hero-logo" alt={"Aquadoge logo"} />
             {/* <Image src="/images/logo.webp" width={470} height={441} className="absolute z-20 w-auto h-28 py-2 m-auto -translate-x-1/2 -top-[70px] left-1/2 drop-shadow-xl" alt={"Aquadoge logo"} /> */}
           </div>
         </div>
@@ -50,7 +50,7 @@ export default function Hero() {
             </p>
           </div>
         </div> */}
-        <div id="game-scene" className="-translate-x-[0px] w-[760px] h-[202px] z-10 scale-[1.1] mb-22 -mt-24">
+        <div id="game-scene" className="md:-translate-x-[0px] -translate-x-[0px] md:w-[760px] md:h-[202px] w-[380px] h-[101px] z-10 md:scale-[1.1] scale-[1.5] mb-22 md:mt-48 mt-24">
         </div>
         {/* <div className="title-box score-panel relative z-10 translate-y-[20px] whitespace-break-spaces">{"The Game".replace(/[\s]/g, "     ")}</div>
         <div className="purple-box min-h-[750px] w-full max-w-[1400px] flex p-4 mb-8 flex justify-center items-center">
