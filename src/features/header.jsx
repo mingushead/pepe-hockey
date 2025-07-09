@@ -43,10 +43,10 @@ export default function Header() {
           </div>
           <div className="grow">
             <div className="flex items-center justify-end gap-5 px-3 text-2xl text-primary">
-              <Link href="https://t.me/" target="_blank">
+              <Link href="https://t.me/pepehockey" target="_blank">
                 <BsTelegram />
               </Link>
-              <Link href="https://x.com/" target="_blank">
+              <Link href="https://x.com/pepeicehockey" target="_blank">
                 <BsTwitterX  />
               </Link>
             </div>
